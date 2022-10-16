@@ -1,0 +1,74 @@
+/* Aplicando reset no css padrão */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* CENTRALIZANDO TODO NOSSO CONTEUDO */
+body {
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  position: absolute;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 450px;
+  padding: 20px 20px; 
+  border-radius: 5px; 
+  
+}
+
+.login-box .user-box input {
+  color: #464646;
+  background: #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px;  
+  margin-top: 20px;
+  
+}
+
+#acessar{
+  color: white;
+  background-color: #121212;
+}
+
+.redesocial {
+  color: #464646;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 70px ;
+}
+
+.redesocial input {
+  color: white;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+  margin-top: 15px;
+  padding: 10px 15px;
+}
+
+#twitter {
+  background-color: #56A7F2;
+}
+
+#facebook {
+  background-color: #1E3C72;
+}
